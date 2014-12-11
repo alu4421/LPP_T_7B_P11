@@ -1,21 +1,30 @@
 # Quiz
 
-Practica 11: DSL
+Practica 11: DSL (Lenguaje de Dominio Específico)
+
+## Haniel Y María
+
+## Enunciado
+
+Diseñar e implementar un Lenguaje de Dominio Especıfico Domain Specific Language - DSL,
+siguiendo la filosofıa de Ruby que permita la definicion de un examen.
+
 
 ## Installation
 
-Add this line to your application's Gemfile:
 
 ```ruby
 gem 'quiz'
 ```
 
-And then execute:
+Ejecuta:
 
     $ bundle
 
-Or install it yourself as:
+O instala la gema tu mismo:
 
     $ gem install quiz
 
 Haniel Y Maria
+
+
