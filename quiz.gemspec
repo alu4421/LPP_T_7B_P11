@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'quiz/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "quiz"
+  spec.name          = "quizHanielMaria"
   spec.version       = Quiz::VERSION
   spec.authors       = ["Haniel"]
   spec.email         = ["alu0100721690@ull.edu.es"]
