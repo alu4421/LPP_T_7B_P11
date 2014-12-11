@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Quiz::VERSION
   spec.authors       = ["Haniel"]
   spec.email         = ["alu0100721690@ull.edu.es"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{DSL Para Examenes}
+  spec.description   = %q{DSL Para Examenes}
   spec.homepage      = ""
   spec.license       = "MIT"
 
