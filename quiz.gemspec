@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["alu0100721690@ull.edu.es"]
   spec.summary       = %q{DSL Para Examenes}
   spec.description   = %q{DSL Para Examenes}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/alu4421/LPP_T_7B_P11"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
