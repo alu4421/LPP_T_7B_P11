@@ -16,7 +16,7 @@ module Quiz
 			n = 1
 			out << "\n\t #{n}.- #{answers[:right]}\n"
 			n+=1
-			answers[:wrong].each do |op|
+			answers.each_with_index do |op|
 				out<<"\t #{n}.- #{op}\n"
 				n+=1
 			end
@@ -25,15 +25,13 @@ module Quiz
 
 	end #fin clase Question
 
-
-
 	class P_Quiz
 		attr_accessor :name, :questions
 
 		def initialize(name, &block)
 			self.name = name
 			self.questions = []
-
+			@count =0
 			instance_eval &block 
 		end
 
@@ -54,8 +52,10 @@ module Quiz
 			questions << question
 		end
 
-		def wrong (option)
-			self.questions[-1].answers[:wrong] << option
+		def wrong ()
+			#self.questions[-1].answers[:wrong] << option
+			@count +=1
+			"Key#{@count}"
 		end
 
 	end #fin clase P_Quiz
